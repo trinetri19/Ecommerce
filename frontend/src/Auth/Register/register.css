@@ -1,0 +1,70 @@
+.mainRegisterDiv{
+    height:100vh;
+    /* width:100vw; */
+   background-image: url('/home/homebg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8rem;
+}
+.RegisterForm{
+    height:60%;
+    width:20%;
+    padding:0.8rem;
+    background-color:transparent;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border:1px solid white;
+    box-shadow: 0 0 20px 5px rgba(160, 165, 142, 0.7);
+  
+}
+input{
+    color:black;
+}
+.imageRegister{
+    height:60%;
+    width:30%;
+    padding:0.5rem;
+    background-image: url('/home/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imageRegister:hover{
+    box-shadow: 0 0 20px 5px rgba(160, 165, 142, 0.7);
+    transform: scale(1.02);
+}
+
+.R{
+
+    padding: 1rem;
+}
+.R h1{
+    font-size: 2rem;
+    text-align: center;
+}
+   
+.innerRForm{
+    height:40vh;
+    width:16vw;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.inp{
+    height:30%;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    font-size: 1.2rem;
+}
+.inp input{
+    height:2.3rem;
+}
+button{
+    height:2rem;
+    width:95%;
+}

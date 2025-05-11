@@ -1,0 +1,34 @@
+.mainDiv{
+ min-height:100vh;
+ background-color: aliceblue;
+ display: flex;
+}
+.leftDiv{
+    max-height: 90vh;
+    width:45%;
+    border-radius:50% ;
+    background-image: url('/product/ecomm.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:1rem;
+    padding: 1rem;
+}
+.formDiv{
+    height: 99%;
+    width:55%;
+    /* background-color: rgb(50, 205, 50); */
+    margin:1rem;
+    padding: 1rem;
+  
+}
+.formDiv form{
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+}
+.txF{
+    width:40vw !important; 
+}
+form Button{
+    width:6rem !important;
+}

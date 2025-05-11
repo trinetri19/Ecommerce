@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Pacifico&family=Playwrite+HR:wght@100..400&display=swap');
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    position: sticky;
+    border-bottom: 1px solid rgb(42, 39, 39);
+}
+
+.nav-right {
+    width: 40vw;
+    padding: 1vmin;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.heading {
+    font-size: 1.8rem;
+    /* background-color: yellow; */
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    margin:0rem 0.4rem;
+    font-style: normal;
+}
+
+.comp-div {
+    /* background-color: beige; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.comp-div ul {
+    display: flex;
+    gap: 2rem;
+    /* background-color: yellowgreen; */
+
+}
+
+.comp-div li {
+    list-style: none;
+    font-size: 1.4rem;
+}
+.l{
+    text-decoration: none;
+}
+.cir{
+    /* background-color: yellowgreen !important; */
+    width:0rem !important;
+    margin-right:1rem !important ;
+}
+/* .account {
+    width: 4vw;
+    height: 7vh;
+    background-color:rgb(201, 189, 189);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+} */
